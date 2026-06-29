@@ -1,4 +1,4 @@
-<h1>Sudo misconfiguration</h1>
+<h1>Sudo misconfiguration Lab</h1>
 
 
 
