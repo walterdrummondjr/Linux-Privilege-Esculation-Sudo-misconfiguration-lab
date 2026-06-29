@@ -28,7 +28,7 @@ This lab walks you through enumerating and exploiting a target. The target has s
 <br><br>
 
 
-### Lab:
+<h1>Lab:</h1>
 
 
 ### Launch kali Virtual machine:
@@ -45,7 +45,7 @@ This lab walks you through enumerating and exploiting a target. The target has s
 
 
 
-### Penetration Testing Phase: Reconnaissance:
+<h1>Penetration Testing Phase: Reconnaissance:</h1>
 
 
 
@@ -64,7 +64,7 @@ ifconfig
 <br><br>
 
 
-### Penetration Testing Phase: Scanning:
+<h1>Penetration Testing Phase: Scanning:</h1>
 
 ### Run nmap scan:
 
@@ -82,7 +82,7 @@ ifconfig
 
 **Information:** We know our kali IP is .10 device and .1 device is the router. Our target must be .3 or .4 device. 
 
-### Using nmap tool to discover more information about the host:
+<h1>Using nmap tool to discover more information about the host:</h1>
 
 nmap -v -sC -sV 10.0.2.3 10.0.2.4 -oN 2ndscan.txt
 
@@ -106,7 +106,7 @@ nmap -v -sC -sV 10.0.2.3 10.0.2.4 -oN 2ndscan.txt
 
 **Information:** SearchSploit command searches the offline Exploit-DB archive. 
 
-### Penetration Testing Phase: Exploitation (Vulnerability Assessment)
+<h1>Penetration Testing Phase: Exploitation (Vulnerability Assessment)</h1>
 
 ### Use searchsploit command to search for vulnerabilities:
 
@@ -127,7 +127,7 @@ searchsploit OpenSSH 7.6p1 | tee searchsploit.txt
 <br><br>
 
 
-### Penetration Testing Phase: Exploitation (Metasploit)
+<h1>Penetration Testing Phase: Exploitation (Metasploit)</h1>
 
 ### Lets use metasploit ssh enumeration module to enumerate users:
 
@@ -151,7 +151,7 @@ set user_file users.txt
 <br><br>
 
 
-### Penetration Testing Phase: Exploitation (Hydra tool)
+<h1>Penetration Testing Phase: Exploitation (Hydra tool)</h1>
 
 **Information:** User bob has been found, lets use brute force tool hydra to try to crack the users password with a wordlist.
 
@@ -178,7 +178,7 @@ ssh bob@10.0.2.4
 <img width="640" height="333" alt="Image" src="https://github.com/user-attachments/assets/d3f4eee2-c897-48d5-82e7-2a4c6e18416a" />
 <br><br>
 
-### Penetration Testing Phase: Post-Exploitation (Privilege Escalation)
+<h1>Penetration Testing Phase: Post-Exploitation (Privilege Escalation)</h1>
 
 ### Use sudo command to list the sudo privileges for bob:
 
@@ -231,7 +231,7 @@ sudo git help config
 <img width="1078" height="409" alt="Image" src="https://github.com/user-attachments/assets/87ff0689-9d0b-44c2-abc0-57762d27a648" />
 <br><br>
 
-**Results:** Bash shell launches and we have root. Ran whoami,groups and id command to confirm we have root.
+**Results:** Bash shell launches and we have root. Ran whoami,groups and id commands to confirm root access.
 
 
 
