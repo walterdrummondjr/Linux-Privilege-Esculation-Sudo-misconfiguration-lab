@@ -232,9 +232,13 @@ sudo git help config
 <br><br>
 
 **Results:** Bash shell launches and we have root. Ran whoami,groups and id commands to confirm root access.
+<br><br>
 
 
 
+<h1>Short Report</h1>
+
+- [Short report - Sudo misconfiguration lab](https://github.com/walterdrummondjr/Short-report-sudo-misconfiguration-lab)
 
 
 
