@@ -22,9 +22,9 @@ This lab walks you through enumerating and exploiting a target. The target has s
 
 ### Oracle Virutal Box:
 
-- **Attacker machine** = Kali linux
+- **Attacker VM machine** = Kali linux
   
-- **Target machine** = Ubuntu 18.04 LTS/ Linsecurity vulnerable linux machine</b>
+- **Target VM machine** = Ubuntu 18.04 LTS/ Linsecurity vulnerable linux machine</b>
 <br><br>
 
 
