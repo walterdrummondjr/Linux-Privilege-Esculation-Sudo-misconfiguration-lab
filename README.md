@@ -8,7 +8,7 @@ This lab walks you through enumerating and exploiting a target. The target has s
 
 
 
-### Penetration testing tools and Utilities Used:
+### Tools and Utilities Used:
 
 
 - <b>Linux CLI</b> 
