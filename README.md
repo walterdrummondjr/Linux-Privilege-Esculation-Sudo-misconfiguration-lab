@@ -11,7 +11,6 @@ This lab walks you through enumerating and exploiting a target. The target has s
 ### Tools and Utilities Used:
 
 
-- <b>Linux CLI</b> 
 - <b>Metasploit</b>
 - <b>Hydra</b> 
 - <b>Nmap</b>
